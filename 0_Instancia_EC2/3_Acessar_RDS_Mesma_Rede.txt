@@ -1,0 +1,2 @@
+#ACESSAR UM BANCO DE DADOS RDS VIA CMD NUMA MESMA REDE
+mysql -u admin -h database-1.cs3f1c0sf2fs.us-east-1.rds.amazonaws.com -p

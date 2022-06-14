@@ -1,0 +1,33 @@
+COMANDOS LINUX
+
+mkdir :cria diretorio
+touch :criar novo arquivo
+rm abc.txt:remove arquivo
+pwd: printworkdirectory PARA SABER ONDE ESTAMOS
+cd ~:voltar para home
+echo :expande mapa de diretorios
+
+
+#EDITANDO PERMISSÕES
+chmod :alterar permissões para arquivos (ler, editar)
+chwn :define quem é o proprietário do arquivo (User, Group e Other) permissões: r(read) w(write) x(execution)
+
+
+
+
+
+#PARAR PROGRAMA E DISABILITAR INICIALIZAÇÃO
+sudo systemctl stop mariadb
+sudo sytemctl disable mariadb
+
+#EDITAR TEXTO NO LINUX
+Abra um arquivo digitando:
+vi <nome do arquivo>
+Aperte a tecla INSERT ou i para editar o arquivo
+Edite o texto, use as setas para mover o cursor
+Ao terminar a edição aperte a tecla ESC
+Digite :w para salvar as modificações, :wq para salvar e sair do vi e :q! para sair sem salvar.
+Para criar um arquivo digite
+vi <nome do arquivo que deseja criar>
+Proceda como no caso da edição de um arquivo.
+

@@ -1,0 +1,6 @@
+------------------ALTERAR PERMISÃO WINDOWS------------------
+CACLS  LightsailDefaultKey-us-east-1.pem /p Jefferson:r
+CACLS files /e /p {USERNAME}:{PERMISSION}
+
+------------------ALTERAR PERMISÃO LINUX------------------
+chmod  400 file
